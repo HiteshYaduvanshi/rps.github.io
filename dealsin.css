@@ -1,0 +1,52 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;
+  
+}
+
+body{
+    background-color: red;
+}
+
+.introimg{
+    background-image: url(cam2.jpg);
+    height: 91vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.services{
+    border-left: 2px solid black;
+    
+}
+
+.footer{
+    background:#3C4142 ;
+    color: aliceblue;
+  }
+
+  .font1{
+    font-size: 2rem;
+  }
+
+  /*media quary*/
+@media screen and (max-width: 800px) {
+  .intro h3{
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .breaf h3{
+    font-size: 15px;
+  }
+  .font1{
+    font-size:15px;
+  }
+ .jumbo_text{
+     font-size: 20px;
+ }
+ .intro h3{
+    font-size: 0.9rem;
+  }
+
+}
+ 
+/*media quary-end*/

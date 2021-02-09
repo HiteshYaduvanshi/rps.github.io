@@ -1,0 +1,39 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;
+  
+}
+.intro_jumbo{
+    background-image: url(cam1.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbo{
+    background-image: url(cam4.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+.intro h3{
+    color: #cf6a87;
+}
+.footer{
+    background:#3C4142 ;
+    color: aliceblue;
+  }
+
+  .font1{
+    font-size: 2rem;
+  }
+  @media screen and (max-width: 300px) {
+    .breaf h3{
+      font-size: 15px;
+    }
+    .font1{
+      font-size:15px;
+    }
+    dl{
+        font-size: 9px;
+    }
+  }
+ 
